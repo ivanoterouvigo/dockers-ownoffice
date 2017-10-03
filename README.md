@@ -1,4 +1,4 @@
-# dockers-ownoffice
+# DOCKERS-OWN-ONLINE-OFFICE-SERVICE
 This sample let you have your own office service integrated with onwcloud
 
 # Requirements
@@ -102,7 +102,18 @@ Debe tenerse en cuenta que el comando anterior sólo desinstala el software inst
 # Section 02
 # STEP 1/Section 02 ]
 
+Get the latest version of this repository running the command:
+git clone --recursive https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
+cd docker-onlyoffice-owncloud
+git submodule update --remote
 
+# STEP 2/Section 02 ]
+
+# STEP 3/Section 02 ]
+
+# STEP 4/Section 02 ]
+
+# STEP 5/Section 02 ]
 
 # Web reference:
 https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
