@@ -8,7 +8,8 @@ Docker compose (can be downloaded here: https://docs.docker.com/compose/install/
 
 # In my case I follow this steps to install docker-ce ( docker comunity edition )
 
-# STEP 1 )
+# Section 01
+# STEP 1/Section 01 ]
 
 Agregar el repositorio oficial de Docker
 
@@ -17,7 +18,7 @@ Instalar los paquetes necesarios para permitir el uso de repositorios a través 
 
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 
-# STEP 2 )
+# STEP 2/Section 01 ]
 
 Agregar la llave GPG del repositorio oficial de Docker.
 
@@ -25,14 +26,14 @@ Agregar la llave GPG del repositorio oficial de Docker.
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 
-# STEP 3 )
+# STEP 3/Section 01 ]
 
 Por seguridad, verificar que la firma (fingerprint) sea 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88.
 
 sudo apt-key fingerprint 0EBFCD88
 
 
-# STEP 4 )
+# STEP 4/Section 01 ]
 
 Agregar el repositorio mediante la siguiente instrucción para una distribución de 64 bits de Ubuntu.
 
@@ -42,11 +43,11 @@ sudo add-apt-repository \
  stable"
 
 
-# STEP 5 )
+# STEP 5/Section 01 ]
 
 Finalmente, se actualizan los índices de los paquetes para que sea tomado en cuenta este nuevo repositorio.
 
-# STEP 6 )
+# STEP 6/Section 01 ]
 
 Instalar el software
 
@@ -57,7 +58,7 @@ En caso de que se desee instalar la última versión disponible se deberá ejecu
 
 sudo apt-get install docker-ce
 
-# STEP 7 )
+# STEP 7/Section 01 ]
 
 
 Probar la instalación
