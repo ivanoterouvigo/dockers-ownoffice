@@ -109,9 +109,24 @@ git submodule update --remote
 
 # STEP 2/Section 02 ]
 
+Edit the docker-compose.yml file, opening it and altering the image: version: '2.0'
+
+
 # STEP 3/Section 02 ]
 
+Run Docker Compose:
+docker-compose up -d
+
 # STEP 4/Section 02 ]
+
+Please note: you might need to wait a couple of minutes when all the containers are up and running after the above command.
+
+Now launch the browser and enter the webserver address. The ownCloud wizard webpage will be opened. Enter all the necessary data to complete the wizard.
+
+Go to the project folder and run the set_configuration.sh script:
+
+bash set_configuration.sh
+Now you can enter ownCloud and create a new document. It will be opened in ONLYOFFICE Document Server.
 
 # STEP 5/Section 02 ]
 
@@ -126,3 +141,11 @@ Docker Engine user guide
 https://docs.docker.com/engine/userguide/
 Post-installation steps for Linux
 https://docs.docker.com/engine/installation/linux/linux-postinstall/
+
+# Project Information
+
+# Official website: http://www.onlyoffice.org
+
+# Code repository: https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
+
+# SaaS version: http://www.onlyoffice.com
