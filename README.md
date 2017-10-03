@@ -128,8 +128,6 @@ Go to the project folder and run the set_configuration.sh script:
 bash set_configuration.sh
 Now you can enter ownCloud and create a new document. It will be opened in ONLYOFFICE Document Server.
 
-# STEP 5/Section 02 ]
-
 # Web reference:
 https://github.com/ONLYOFFICE/docker-onlyoffice-owncloud
 
