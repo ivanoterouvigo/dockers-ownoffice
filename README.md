@@ -99,6 +99,8 @@ sudo apt-get purge docker-ce
 
 Debe tenerse en cuenta que el comando anterior sólo desinstala el software instalado en este mismo artículo, el resto de los recursos (imágenes, contenedores, volúmenes, archivos de configuración, etc.) no serán removidos automáticamente.  Estos por defecto se ubican bajo /var/lib/docker.
 
+# Section 02
+# STEP 1/Section 02 ]
 
 
 
