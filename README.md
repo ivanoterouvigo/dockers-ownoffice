@@ -69,7 +69,13 @@ In case you want to install the latest available version you must execute the fo
 sudo apt-get install docker-ce
 ```
 
-10. Run Docker Compose:
+10. Install Compose:
+
+```
+sudo apt-get install docker-compose
+```
+
+11. Run Docker Compose:
 
 ```
 docker-compose up -d
@@ -77,9 +83,9 @@ docker-compose up -d
 
 **Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
 
-11. Now launch the browser and enter the webserver address. The ownCloud/Nextcloud wizard webpage will be opened. Enter all the necessary data to complete the wizard.
+12. Now launch the browser and enter the webserver address. The ownCloud/Nextcloud wizard webpage will be opened. Enter all the necessary data to complete the wizard.
 
-12. Go to the project folder and run the `set_configuration.sh` script:
+13. Go to the project folder and run the `set_configuration.sh` script:
 
 ```
 bash set_configuration.sh
