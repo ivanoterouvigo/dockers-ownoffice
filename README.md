@@ -30,6 +30,32 @@ image: nextcloud:fpm
 ```
 This step is optional and, if you want to use Document Server with ownCloud, you do not need to change anything.
 
+4. Add the official Docker repository
+Install the necessary packages to allow the use of repositories through HTTPS.
+
+```
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+```
+5. Add the GPG key from the official Docker repository.
+
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+6. For security, verify that the signature (fingerprint) is 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88.
+
+```
+sudo apt-key fingerprint 0EBFCD88
+```
+7.Add the repository using the following instruction for a 64-bit distribution of Ubuntu.
+
+```
+sudo add-apt-repository \
+ "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ $(lsb_release -cs) \
+ stable"
+```
+
+
 4. Run Docker Compose:
 
 ```
