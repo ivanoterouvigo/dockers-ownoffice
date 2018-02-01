@@ -54,7 +54,20 @@ sudo add-apt-repository \
  $(lsb_release -cs) \
  stable"
 ```
+8.Finally, the indexes of the packages are updated so that this new repository is taken into account.
 
+```
+sudo apt-get update
+```
+9. Install the software
+
+Once the official repository is ready, the software is installed on the server.
+
+In case you want to install the latest available version you must execute the following command.
+
+```
+sudo apt-get install docker-ce
+```
 
 4. Run Docker Compose:
 
