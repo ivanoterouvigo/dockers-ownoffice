@@ -76,9 +76,10 @@ sudo apt-get install docker-compose
 ```
 
 11. Run Docker Compose:
+Perhaps you need to change Version from 3 to 2
 
 ```
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 **Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
