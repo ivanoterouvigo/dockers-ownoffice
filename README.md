@@ -46,7 +46,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 sudo apt-key fingerprint 0EBFCD88
 ```
-7.Add the repository using the following instruction for a 64-bit distribution of Ubuntu.
+7. Add the repository using the following instruction for a 64-bit distribution of Ubuntu.
 
 ```
 sudo add-apt-repository \
@@ -54,7 +54,7 @@ sudo add-apt-repository \
  $(lsb_release -cs) \
  stable"
 ```
-8.Finally, the indexes of the packages are updated so that this new repository is taken into account.
+8. Finally, the indexes of the packages are updated so that this new repository is taken into account.
 
 ```
 sudo apt-get update
