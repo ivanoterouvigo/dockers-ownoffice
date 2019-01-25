@@ -109,3 +109,7 @@ If you have any problems with or questions about [ONLYOFFICE Document Server][2]
   [1]: http://dev.onlyoffice.org
   [2]: https://github.com/ONLYOFFICE/DocumentServer
   [3]: http://stackoverflow.com/questions/tagged/onlyoffice
+  
+  
+https://api.onlyoffice.com/editors/callback
+
