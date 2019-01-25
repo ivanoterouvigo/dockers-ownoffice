@@ -118,12 +118,11 @@ https://api.onlyoffice.com/editors/callback
 
 ## Parameters and their description:
 
+actions    --->     array of object
 
+changeshistory --->     array of object
 
-
-
-
-
+changesurl --->     string
 
 
 
