@@ -110,6 +110,28 @@ If you have any problems with or questions about [ONLYOFFICE Document Server][2]
   [2]: https://github.com/ONLYOFFICE/DocumentServer
   [3]: http://stackoverflow.com/questions/tagged/onlyoffice
   
-  
+
+
+## Some error founded.
+
 https://api.onlyoffice.com/editors/callback
+
+## Parameters and their description:
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Some issues reported:
+
+https://github.com/ONLYOFFICE/onlyoffice-owncloud/issues/243
+
 
